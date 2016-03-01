@@ -1,0 +1,18 @@
+{
+  "manifest_version": 2,
+
+  "name": "Dogebook",
+  "description": "Doge for facebook",
+  "version": "1.0",
+
+  "icons": {
+    "128": "icon.png"
+  },
+
+  "content_scripts": [
+    {
+      "matches": ["https://www.facebook.com/*"],
+      "css": ["much_styles.css"]
+    }
+  ]
+}
