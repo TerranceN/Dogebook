@@ -1,4 +1,4 @@
-*[aria-label="Wow"] i, i.wow {
+*[aria-label*="Wow"] i, i.wow {
   background-position: 0 0 !important;
   background-image: url(http://i.imgur.com/XU48Fz4.png) !important;
   background-size: contain !important;
