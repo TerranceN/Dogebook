@@ -12,6 +12,7 @@
   "content_scripts": [
     {
       "matches": ["https://www.facebook.com/*"],
+      "js": ["jquery-3.0.0.min.js", "very_detector.js"],
       "css": ["much_styles.css"]
     }
   ]
